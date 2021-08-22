@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainContentsUI</class>
+ <widget class="QDialog" name="MainContentsUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="store10">
+   <property name="geometry">
+    <rect>
+     <x>684</x>
+     <y>557</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储10</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store5">
+   <property name="geometry">
+    <rect>
+     <x>686</x>
+     <y>500</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store4">
+   <property name="geometry">
+    <rect>
+     <x>584</x>
+     <y>500</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pressSetting">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>160</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>压力设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>500</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="otherSetting">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>430</y>
+     <width>160</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>其他设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store6">
+   <property name="geometry">
+    <rect>
+     <x>278</x>
+     <y>557</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store9">
+   <property name="geometry">
+    <rect>
+     <x>584</x>
+     <y>557</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store1">
+   <property name="geometry">
+    <rect>
+     <x>278</x>
+     <y>500</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="syringeSetting">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>160</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注射器设置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store7">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>557</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store8">
+   <property name="geometry">
+    <rect>
+     <x>482</x>
+     <y>557</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="store3">
+   <property name="geometry">
+    <rect>
+     <x>482</x>
+     <y>500</y>
+     <width>100</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>存储3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="vacPrepare">
+   <property name="geometry">
+    <rect>
+     <x>864</x>
+     <y>300</y>
+     <width>160</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>负压准备</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>310</y>
+     <width>340</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="mainUiLeft">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mainUiRight">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>40</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
