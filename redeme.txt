@@ -1,0 +1,12 @@
+// 上传到此工程medicalProject
+git remote rm origin
+
+git remote add origin git@github.com:losingface/medicalProject
+ git add .
+
+git commit -m "first commit"
+
+git pull origin master
+
+git push origin master
+https://blog.csdn.net/zeng092210/article/details/95622318

@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>volume.png</file>
-        <file>right-60.png</file>
-        <file>left-60.png</file>
-    </qresource>
-</RCC>
